@@ -1,6 +1,7 @@
 {
-  "name": "bot",
+  "name": "dernieressaibot",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -8,14 +9,15 @@
   "author": "Melkyes",
   "license": "ISC",
   "dependencies": {
+    "discord": "^0.8.2",
     "discord.js": "^11.4.2",
     "ffmpeg": "0.0.4",
     "ffmpeg-binaries": "^4.0.0",
+    "node": "^11.10.0",
     "opusscript": "0.0.6",
     "simple-youtube-api": "^5.1.1",
+    "ytdl": "^0.11.1",
     "ytdl-core": "^0.29.1"
-  },
-  "devDependencies": {},
-  "keywords": [],
-  "description": ""
+  }
 }
+
