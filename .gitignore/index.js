@@ -13,6 +13,7 @@ client.on('warn', console.warn);
 
 client.on('error', console.error);
 
+client.on('ready', () => console.log('Yo this ready!'));
 
 client.on('disconnect', () => console.log('Je me suis juste deconnecté, je voulais être sur que vous le saviez, je me reconnecte..'));
 
